@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFFF;
+}
+
+header {
+    display: flex;
+}
+
+header h2{
+    display: inline;
+    color: #13183F;
+    position: relative;
+    left: 50px;
+    margin-top: 40px;
+}
+
+ header .start-btn1 {
+    margin-top: 45px;
+    background-color: #13183F;
+    color: #FFFFFF;
+    border-radius: 22px;
+    width: 100px;
+    height: 25px;
+    border: none;
+    position: absolute;
+    left: 780px;
+}
+
+.img1 img{
+    position: fixed;
+    overflow: hidden;
+    right: -250px;
+    top: -175px;
+    z-index: -5;
+    width: 900px;
+    height: 850px;
+}
